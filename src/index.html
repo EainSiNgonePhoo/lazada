@@ -17,13 +17,13 @@
     <div class="mx-auto  gap-2 max-w-7xl  space-y-5">
         <div>
             <div class="text-sm truncate text-right gap-1">
-                <a href="#" class="text-fuchsia-400 hover:text-orange-400 mx-7">FEEDBACK</a>
-                <a href="#" class="hover:text-orange-400 mx-7">SAVE MORE ON APP</a>
-                <a href="#" class="text-fuchsia-400 hover:text-orange-400 gap-x-px mx-7">SELL ON LAZADA</a>
-                <a href="#" class="hover:text-orange-400 mx-7">CUSTOMER CARE</a>
-                <a href="#" class="hover:text-orange-400 mx-7">TRACK MY ORDER</a>
-                <a href="#" class="hover:text-orange-400m mx-7">LOGIN</a>
-                <a href="#" class="hover:text-orange-400 mx-7">SING UP</a>
+                <a href="#" class="text-fuchsia-400 hover:text-orange-400 mx-7 ">FEEDBACK</a>
+                <a href="#" class="hover:text-orange-400 mx-7 text-black">SAVE MORE ON APP</a>
+                <a href="#" class="text-fuchsia-400 hover:text-orange-400 gap-x-px mx-7 ">SELL ON LAZADA</a>
+                <a href="#" class="hover:text-orange-400 mx-7 text-black">CUSTOMER CARE</a>
+                <a href="#" class="hover:text-orange-400 mx-7 text-black">TRACK MY ORDER</a>
+                <a href="#" class="hover:text-orange-400m mx-7 text-black">LOGIN</a>
+                <a href="#" class="hover:text-orange-400 mx-7 text-black">SING UP</a>
             </div>
         </div>
 
@@ -31,7 +31,7 @@
         <div class="flex gap-x-9 ">
             <div><a><img src="assets/lazadahert.png" class="w-30" alt="lazadahert"></a></div>
 
-            <div class="flex ">
+            <div class="flex text-black">
                 <input type="text" name="search" placeholder="Search in Lazada"
                     class="w-140 rounded-l-md border  border-gray-300 px-4 py-3 outline-none focus:border-blue-500">
 
@@ -43,9 +43,13 @@
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
                     <path d="M0 0h24v24H0z" fill="none" />
-                    <path fill="currentColor"
-                        d="M6.01 16.136L4.141 4H3a1 1 0 0 1 0-2h1.985a1 1 0 0 1 .66.235a1 1 0 0 1 .346.627L6.319 5H14v2H6.627l1.23 8h9.399l1.5-5h2.088l-1.886 6.287A1 1 0 0 1 18 17H7.016a1 1 0 0 1-.675-.248a1 1 0 0 1-.332-.616zM10 20a2 2 0 1 1-4 0a2 2 0 0 1 4 0m9 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0m0-18a1 1 0 0 1 1 1v1h1a1 1 0 1 1 0 2h-1v1a1 1 0 1 1-2 0V6h-1a1 1 0 1 1 0-2h1V3a1 1 0 0 1 1-1" />
+                    <circle cx="10.5" cy="19.5" r="1.5" fill="#000" />
+                    <circle cx="17.5" cy="19.5" r="1.5" fill="#000" />
+                    <path fill="#000" d="M13 13h2v-2.99h2.99v-2H15V5.03h-2v2.98h-2.99v2H13z" />
+                    <path fill="#000"
+                        d="M10 17h8a1 1 0 0 0 .93-.64L21.76 9h-2.14l-2.31 6h-6.64L6.18 4.23A2 2 0 0 0 4.33 3H2v2h2.33l4.75 11.38A1 1 0 0 0 10 17" />
                 </svg>
+
 
 
 
@@ -221,14 +225,14 @@
                 </div>
 
                 <!-- 2 -->
-                <div class="grid grid-rows-3  w-full h-50 ">
+                <div class="grid grid-rows-3  w-full h-37">
                     <div class="px-2 h-20">
                         <p class="text-sm px-1 text-black">4.7 Rated</p>
                         <p class="text-sm px-1 text-black">Get the Lazada app to enjoy</p>
                     </div>
 
-                    <div class=" w-full h-30">
-                        <div class="grid grid-rows-2 w-full  gap-2">
+                    <div class=" w-full h-20">
+                        <div class="grid grid-rows-2 w-full h-20 gap-2">
                             <div class="flex px-10">
                                 <img src="assets/freesh.avif" alt="" class="size-8">
                                 <p class="text-sm px-1 text-black">App Store</p>
@@ -241,38 +245,62 @@
 
                     </div>
 
-                    <div class="border border-1 w-full h-20">
+                    <div class=" w-full h-20">
 
                     </div>
                 </div>
 
                 <!-- 3 -->
-                <div class="grid grid-cols-2  bg-black ">
-                    <div class="bg-green-100  w-full h-30">
+                <div class="grid grid-cols-2  px-2 ">
+                    <div class=" w-full h-30">
+                        <img src="assets/scan.avif" alt="" class="w-full h-30">
 
                     </div>
-                    <div class=" bg-red-200 w-full h-30 px-3">
+                    <div class="  w-full h-30 px-3">
                         <div class="grid grid-rows-2 rounded-base w-full h-15 px-3 py-3">
                             <div class="flex ">
-                                <img src="https://img.lazcdn.com/g/tps/imgextra/i2/O1CN01n3PMa828kJZVuCbPp_!!6000000007970-2-tps-72-72.png_150x150q80.png_.avif"
-                                    alt="" class="size-8 ">
-                                <p class="text-sm px-1">App Store</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 16 16">
+                                    <path d="M0 0h16v16H0z" fill="none" />
+                                    <defs>
+                                        <path id="SVG67go7b2R"
+                                            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258s.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854s-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116c-.508.139-1.653.589-1.968.607c-.316.018-1.256-.522-2.267-.665c-.647-.125-1.333.131-1.824.328c-.49.196-1.422.754-2.074 2.237c-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472c.357.013 1.061.154 1.782.539c.571.197 1.111.115 1.652-.105c.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                                    </defs>
+                                    <g fill="#000">
+                                        <use href="#SVG67go7b2R" />
+                                        <use href="#SVG67go7b2R" />
+                                    </g>
+                                </svg>
+
+                                <p class="text-sm  text-black">App Store</p>
                             </div>
                         </div>
 
                         <div class=" grid grid-rows-2 rounded-base w-full h-15 px-3 py-3">
                             <div class="flex ">
-                                <img src="https://img.lazcdn.com/g/tps/imgextra/i2/O1CN01n3PMa828kJZVuCbPp_!!6000000007970-2-tps-72-72.png_150x150q80.png_.avif"
-                                    alt="" class="size-8 ">
-                                <p class="text-sm px-1">Google Play</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.81em" height="2em"
+                                    viewBox="0 0 256 283">
+                                    <path d="M0 0h256v283H0z" fill="none" />
+                                    <path fill="#ea4335"
+                                        d="M119.553 134.916L1.06 259.061a32.14 32.14 0 0 0 47.062 19.071l133.327-75.934z" />
+                                    <path fill="#fbbc04"
+                                        d="M239.37 113.814L181.715 80.79l-64.898 56.95l65.162 64.28l57.216-32.67a31.345 31.345 0 0 0 0-55.537z" />
+                                    <path fill="#4285f4"
+                                        d="M1.06 23.487A30.6 30.6 0 0 0 0 31.61v219.327a32.3 32.3 0 0 0 1.06 8.124l122.555-120.966z" />
+                                    <path fill="#34a853"
+                                        d="m120.436 141.274l61.278-60.483L48.564 4.503A32.85 32.85 0 0 0 32.051 0C17.644-.028 4.978 9.534 1.06 23.399z" />
+                                </svg>
+
+
+
+                                <p class="text-sm  text-black">Google Play</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- 4 -->
-                <div class=" border border1 mt-1">
-                    <p class="text-sm">Scan QR Code to download Lazada App now</p>
+                <div class="mt-1">
+                    <p class="text-sm text-black">Scan QR Code to download Lazada App now</p>
                 </div>
             </div>
 
@@ -327,7 +355,7 @@
 
         <!-- flash sale -->
         <div class="bg-gray-100">
-            <p class="text-xl mx-2">Flesh Sale</p>
+            <p class="text-xl mx-2 text-black">Flesh Sale</p>
             <div class="flex space-y-3 bg-white">
                 <div class="flex-none  w-40 h-12 text-center text-orange-400">On Sale Now</div>
                 <div class="flex-grow h-12">
@@ -435,7 +463,7 @@
         <div class="bg-gray-100">
             <!-- recmart header -->
             <div class="mb-3">
-                <div class="flex"><img src="assets/remart/reheader.avif" class="" alt="..">
+                <div class="flex text-black px-2"><img src="assets/remart/reheader.avif" class="" alt="..">
                     <h3>Top Groceries</h3>
                 </div>
             </div>
@@ -556,44 +584,44 @@
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat7.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat8.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
 
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat1.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat2.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat3.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat4.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat5.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat6.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat7.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
                 <div class="mt-2 mb-2 border border-1 border-gray-200">
                     <img class="mx-auto object-contain align-middle size-20" src="assets/categories/cat8.avif">
-                    <p class="text-sm truncate text-center mx-2">Canister Vacuum <br>Cleaner</p>
+                    <p class="text-sm truncate text-center mx-2 text-black">Canister Vacuum <br>Cleaner</p>
                 </div>
 
 
@@ -604,7 +632,7 @@
         <!-- LazMall -->
 
         <div class="bg-gray-100">
-            <p class="text-2xl px-2">LazMall</p>
+            <p class="text-2xl px-2 text-black">LazMall</p>
             <div class="grid grid-cols-6 space-x-10">
 
                 <div class="">
@@ -616,8 +644,8 @@
                         </div>
                     </div>
 
-                    <div class="mt-10">
-                        <p class="text-center">aaaaa</p>
+                    <div class="mt-10 text-black">
+                        <p class="text-center ">aaaaa</p>
                         <p class="text-center">bbb</p>
                     </div>
                 </div>
@@ -632,7 +660,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-10">
+                    <div class="mt-10 text-black">
                         <p class="text-center">aaaaa</p>
                         <p class="text-center">bbb</p>
                     </div>
@@ -647,7 +675,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-10">
+                    <div class="mt-10 text-black">
                         <p class="text-center">aaaaa</p>
                         <p class="text-center">bbb</p>
                     </div>
@@ -662,7 +690,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-10">
+                    <div class="mt-10 text-black">
                         <p class="text-center">aaaaa</p>
                         <p class="text-center">bbb</p>
                     </div>
@@ -677,7 +705,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-10">
+                    <div class="mt-10 text-black">
                         <p class="text-center">aaaaa</p>
                         <p class="text-center">bbb</p>
                     </div>
@@ -692,7 +720,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-10">
+                    <div class="mt-10 text-black">
                         <p class="text-center">aaaaa</p>
                         <p class="text-center">bbb</p>
                     </div>
@@ -703,7 +731,7 @@
         <!-- Just for you -->
 
         <div class="bg-gray-100">
-            <p class="text-2xl ">Just For You</p>
+            <p class="text-2xl text-black">Just For You</p>
 
             <div class=" grid grid-cols-2 md:grid-cols-4  lg:grid-cols-6">
                 <!-- just for you wrapper -->
@@ -915,8 +943,9 @@
         </div>
         <!-- text -->
         <div class="w-full min-h-80 px-10 py-8 bg-gray-100">
+
             <div class="grid grid-cols-4">
-                <div>
+                <div class=" px-7">
                     <div>
                         <p class="text-sm text-gray-500">Best Shopping Experience Guaranteed at Lazada Singapore Lazada:
                             Redefining
@@ -971,7 +1000,8 @@
                     </div>
 
                 </div>
-                <div>
+
+                <div class="px-7">
                     <div class="mt-2">
                         <p class="text-sm text-gray-500">THE BIGGEST SALES, BEST VOUCHERS & TOP PROMOS</p>
                         <p class="text-xs text-gray-400">Check out gadget deals in Laz Tech Me Home and get the best
@@ -1009,137 +1039,239 @@
                     </div>
                 </div>
 
+                <div class="  px-7">
+                    <div class="text-xl mb-1 text-gray-500 w-full h-10">
+                        <h2>Top Categories & Brand</h2>
+                    </div>
+
+                    <div class="w-full space-y-5">
+                        <div class="">
+                            <h3 class="text-sm text-black">WHAT'S NEW</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+
+                        <!-- <div class="w-full"> -->
+                        <div class="">
+                            <h3 class="text-sm text-black">Mobile & Tablets</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+
+                        <div class="">
+                            <h3 class="text-sm text-black">Computers & Laptops</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+
+                        <div class="">
+                            <h3 class="text-sm text-black">Computers & Laptops</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+
+                        <div class="">
+                            <h3 class="text-sm text-black">Computers & Laptops</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+
+                        <div class="">
+                            <h3 class="text-sm text-black">Computers & Laptops</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+
+                        <div class="">
+                            <h3 class="text-sm text-black">Computers & Laptops</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class=" px-7">
+                    <div class="">
+                        <h3 class="text-sm text-black">Healths & Beauty</h3>
+
+                        <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                            Note 20,</a>,
+                        <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                        <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                        <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                        <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                    </div>
+
+                    <div>
+                        <div class="">
+                            <h3 class="text-sm text-black">Healths & Beauty</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="">
+                            <h3 class="text-sm text-black">Healths & Beauty</h3>
+
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy S21, Samsung Galaxy
+                                Note 20,</a>,
+                            <!-- <a class="text-gray-500 hover:underline text-xs" href="#">Samsung Galaxy Note 20</a> -->
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12 , dfff</a>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 110</a>,<br>
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                            <a class="text-gray-500 hover:underline text-xs" href="#">Apple iPhone 12</a>,
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-
-            <div></div>
         </div>
 
-        <!-- CountDown -->
-        <!-- <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
-            <div class="bg-neutral rounded-box text-neutral-content flex flex-col w-10 h-10 items-center justify-center">
-                <span class="countdown font-mono text-xs">
-                    <span id="days" style="--value:0;" aria-live="polite">0</span>
-                </span>
-                <p class="text-xs">days</p>
-            </div>
 
-            <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
-                <span class="countdown font-mono text-5xl">
-                    <span id="hours" style="--value:0;" aria-live="polite">0</span>
-                </span>
-                hours
-            </div>
+        <div class="grid grid-cols-3 w-full min-h-40 px-3 py-6 ">
 
-            <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
-                <span class="countdown font-mono text-5xl">
-                    <span id="minutes" style="--value:0;" aria-live="polite">0</span>
-                </span>
-                min
-            </div>
-
-            <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
-                <span class="countdown font-mono text-5xl">
-                    <span id="seconds" style="--value:0;" aria-live="polite">0</span>
-                </span>
-                sec
-            </div>
-        </div> -->
-
-
-        <!-- <footer class="bg-gray-100">
-            <div class="grid grid-cols-4">
-                <div class="h-70 text-blue-950">
-                    <p class="mb-3">Customer Care</p>
-                    <div>
-                        <a href="" class="text-sm">Lazada Help Center</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">RedMart Help Center</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">How to Buy</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">Shipping & Delivery</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">International Product Policy</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">How to Return</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">Contact Lazada</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">Contact RedMart</a>
-                    </div>
+            <div>
+                <div>
+                    <p class="text-md text-gray-700  h-7">Lazada Southeast Asia</p>
                 </div>
 
-                <div class="h-70 text-blue-950">
-                    <p class="mb-3">Customer Care</p>
+                <div class="flex space-x-2">
                     <div>
-                        <a href="" class="text-sm">Lazada Help Center</a>
+                        <img src="assets/laz/lsa1.png" alt="">
                     </div>
-
                     <div>
-                        <a href="" class="text-sm">RedMart Help Center</a>
+                        <img src="assets/laz/laz2.png" alt="">
                     </div>
-
                     <div>
-                        <a href="" class="text-sm">How to Buy</a>
+                        <img src="assets/laz/laz3.png" alt="">
                     </div>
-
                     <div>
-                        <a href="" class="text-sm">Shipping & Delivery</a>
+                        <img src="assets/laz/laz4.png" alt="">
                     </div>
-
                     <div>
-                        <a href="" class="text-sm">International Product Policy</a>
+                        <img src="assets/laz/laz5.png" alt="">
                     </div>
-
                     <div>
-                        <a href="" class="text-sm">How to Return</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">Contact Lazada</a>
-                    </div>
-
-                    <div>
-                        <a href="" class="text-sm">Contact RedMart</a>
-                    </div>
-                </div>
-
-                <div class="bg-gray-100 h-50 col-span-2">
-                    <div class="">
-                        <div class="flex ">
-                            <div class="bg-white w-full h-10"><input class=" text-gray-300"
-                                    placeholder="Your Mobile Number "></div>
-                            <div><button class="border  text-white">DOWNLOAD NOW</button></div>
-                        </div>
-
-                        <div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-
-                        <div></div>
+                        <img src="assets/laz/laz6.png" alt="">
                     </div>
                 </div>
             </div>
-        </footer> -->
+
+            <div>
+                <div>
+                    <p class="text-md text-gray-700  h-7">Lazada Southeast Asia</p>
+                </div>
+
+                <div class="flex space-x-2">
+                    <div>
+                        <img src="assets/laz/fol1.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/laz/fol2.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/laz/fol3.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/laz/fol4.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/laz/fol5.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/laz/fol6.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-rows-2 gap-10">
+                <div>
+                    <p class="text-xs text-gray-700"> &copy; Lazada 2026</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
     </div>
+
+
+
 
     <script>
         const target = new Date("2026-12-31T23:59:59").getTime(); //678899000009999
