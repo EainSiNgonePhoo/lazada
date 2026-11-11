@@ -23,3 +23,5 @@ grid grid-rows-1 md:grid-rows-2
 bg-white grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mt-2 gap-1
 
 relative + absolute
+
+
