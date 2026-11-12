@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white text-gray-950">
+    <div id="nav"></div>
+    <div id="header"></div>
+
+
+    <div>
+
+    </div>
+    <!-- categories hidden -->
+<div class="relative group inline block">
+
+    <span>Categories</span>
+
+    <div class="absolute hidden group-hover:block">
+       <span class="relative group inline block"> <a class="block">electric1</a></span>
+
+
+
+
+        <a class="block">electric1</a>
+        <a class="block">electric1</a>
+        <a class="block">electric1</a>
+        
+
+    </div>
+</div>
+
+    <div id="footer"></div>
+
+    <script>
+        async function include(id, url) {
+            try {
+                const res = await fetch(url);
+                document.getElementById(id).innerHTML = await res.text();
+            } catch (err) {
+                console.error('fail to load' + url, err);
+            }
+        }
+        include('header', './components/header.html');
+        include('nav', './components/nav.html');
+        include('footer', './components/footer.html');
+    </script>
+</body>
+
+</html>
